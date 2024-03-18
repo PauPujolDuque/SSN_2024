@@ -1,0 +1,44 @@
+%YAML 1.2
+---
+
+siesta:
+  version: "4.1.5"
+  arch: "unknown"
+  compiler: "GNU Fortran (GCC) 12.3.0"
+  fflags: "x86_64-apple-darwin13.4.0-gfortran -march=core2 -mtune=haswell -ftree-vectoriize -fPIC -fstack-protector -O2 -pipe  -fallow-argument-mismatch"
+  fppflags: "-DFC_HAVE_ABORT -DCDF -DNCDF -DNCDF_4"
+  libs: "libncdf.a libfdict.a -llapack -lblas -lnetcdff -lnetcdf -lhdf5_hl -lhdf5 -lz"
+  build: "serial"
+  openmp: "no"
+  gemm3m: "no"
+  netcdf: "yes"
+  netcdf4: "yes"
+  netcdf4_mpi: "no"
+  metis: "no"
+  chess: "no"
+  elpa: "no"
+  flook: "no"
+  pexsi: "no"
+
+energies:
+  Ebs:          -0.13513240E+02
+  Eions:           0.11703055E+03
+  Ena:           0.28092729E+02
+  Ekin:           0.45851861E+02
+  Enl:          -0.65143623E+01
+  Eso:           0.00000000E+00
+  Edftu:           0.00000000E+00
+  DEna:          -0.17304348E+01
+  DUscf:           0.26086916E+00
+  DUext:           0.00000000E+00
+  Exc:          -0.14878120E+02
+  Ecorrec:           0.00000000E+00
+  Emadel:           0.00000000E+00
+  Emeta:           0.00000000E+00
+  Emolmec:           0.00000000E+00
+  Ekinion:           0.15883144E+00
+  Eharris:          -0.65789181E+02
+  Etot:          -0.65789181E+02
+  FreeEng:          -0.65790758E+02
+
+...
